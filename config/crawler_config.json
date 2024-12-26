@@ -1,0 +1,25 @@
+{
+  "sites": {
+    "agrea": {
+      "name": "agrea",
+      "start_urls": ["https://agrea.regione.emilia-romagna.it/"],
+      "allowed_domains": ["agrea.regione.emilia-romagna.it"]
+    },
+    "agricoltura": {
+      "name": "agricoltura",
+      "start_urls": ["https://agricoltura.regione.emilia-romagna.it/"],
+      "allowed_domains": ["agricoltura.regione.emilia-romagna.it"]
+    },
+    "avepa": {
+      "name": "avepa",
+      "start_urls": ["https://www.avepa.it/"],
+      "allowed_domains": ["www.avepa.it"]
+    }
+  },
+  "settings": {
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "max_depth": 3,
+    "allowed_content_types": ["text/html"]
+  }
+}
