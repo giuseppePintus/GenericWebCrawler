@@ -1,25 +1,39 @@
 {
+  "global_settings": {
+    "max_pages": 100,
+    "delay": 1.0,
+    "allowed_types": [
+      "text/html",
+      "application/pdf",
+      "image/jpeg",
+      "image/png"
+    ],
+    "headers": {
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.5",
+      "User-Agent": "GeneralSpider/1.0"
+    },
+    "default_protocol": "https",
+    "fallback_protocol": "http"
+  },
   "sites": {
     "agrea": {
-      "name": "agrea",
-      "start_urls": ["https://agrea.regione.emilia-romagna.it/"],
-      "allowed_domains": ["agrea.regione.emilia-romagna.it"]
+      "domain": "agrea.regione.emilia-romagna.it",
+      "start_url": "https://agrea.regione.emilia-romagna.it/",
+      "max_pages": 200,
+      "delay": 2.0,
+      "allowed_types": ["text/html", "application/pdf"]
     },
     "agricoltura": {
-      "name": "agricoltura",
-      "start_urls": ["https://agricoltura.regione.emilia-romagna.it/"],
-      "allowed_domains": ["agricoltura.regione.emilia-romagna.it"]
+      "domain": "agricoltura.regione.emilia-romagna.it",
+      "start_url": "https://agricoltura.regione.emilia-romagna.it/",
+      "max_pages": 150,
+      "delay": 1.5
     },
     "avepa": {
-      "name": "avepa",
-      "start_urls": ["https://www.avepa.it/"],
-      "allowed_domains": ["www.avepa.it"]
+      "domain": "www.avepa.it",
+      "start_url": "https://www.avepa.it/",
+      "allowed_types": ["text/html", "application/pdf", "image/jpeg"]
     }
-  },
-  "settings": {
-    "chunk_size": 1000,
-    "chunk_overlap": 200,
-    "max_depth": 3,
-    "allowed_content_types": ["text/html"]
   }
 }
