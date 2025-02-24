@@ -1,0 +1,14 @@
+# Librerie fondamentali per il funzionamento dello script
+numpy
+pandas
+torch
+
+# Per le embedding (SentenceTransformers) e i modelli Hugging Face
+sentence_transformers
+transformers
+
+# Per la regressione logistica e metriche di classificazione
+scikit-learn
+
+# Per la creazione del Dataset Hugging Face
+datasets
