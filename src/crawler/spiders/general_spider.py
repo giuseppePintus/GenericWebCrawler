@@ -45,9 +45,17 @@ class CrawlerConfig:
         self.validate_config()
     
     def validate_config(self):
+        """Validate configuration requirements"""
         required_fields = ['sites', 'global_settings']
         if not all(field in self.config for field in required_fields):
             raise ValueError("Missing required config fields")
+            
+        # Validate each site has required fields
+        for site_name, site_config in self.config['sites'].items():
+            required_site_fields = ['domain', 'region']
+            missing = [f for f in required_site_fields if f not in site_config]
+            if missing:
+                raise ValueError(f"Site '{site_name}' missing required fields: {missing}")
     
     def get_site_config(self, site_name: str) -> Optional[dict]:
         """Find site configuration by site name"""
@@ -271,6 +279,7 @@ class GeneralSpider:
         self.site_name = site_name
         self.site_config = site_config
         self.global_config = global_config
+        self.region = site_config['region']  # Store region
         
         self.domain = site_config['domain']
         self.start_url = site_config.get('start_url') or self._normalize_url(self.domain)
@@ -468,13 +477,11 @@ class GeneralSpider:
         """Save downloaded content and create chunks if HTML"""
         try:
             if content_type.startswith('text/html'):
-                # Process HTML content
                 html_content = content.decode('utf-8', errors='ignore')
                 clean_html = self.content_extractor.extract_body(html_content, url)
                 
-                # Get next page number and create paths
                 page_num = self.page_counter.get_next_number('html')
-                page_dir = f"page_{page_num:04d}"
+                page_dir = f"{self.region}_page_{page_num:04d}"
                 
                 # Save original HTML
                 html_dir = self.dir_manager.get_subdir('html')
@@ -482,39 +489,41 @@ class GeneralSpider:
                 with open(html_path, 'w', encoding='utf-8') as f:
                     f.write(clean_html)
                 
-                # Create and save chunks
+                # Create and save chunks with region info
                 chunks = self.content_extractor.create_chunks(clean_html)
                 if chunks:
                     chunks_dir = self.dir_manager.get_subdir('chunks') / page_dir
                     chunks_dir.mkdir(parents=True, exist_ok=True)
                     
-                    # Save metadata
                     metadata = {
                         'url': url,
                         'timestamp': datetime.now().isoformat(),
                         'content_type': content_type,
-                        'chunk_count': len(chunks)
+                        'chunk_count': len(chunks),
+                        'region': self.region
                     }
                     
                     with open(chunks_dir / 'metadata.json', 'w', encoding='utf-8') as f:
                         json.dump(metadata, f, indent=2)
                     
-                    # Save individual chunks
                     for i, chunk in enumerate(chunks, 1):
-                        chunk_path = chunks_dir / f"chunk_{i:04d}.json"
+                        chunk_path = chunks_dir / f"{self.region}_chunk_{i:04d}.json"
                         with open(chunk_path, 'w', encoding='utf-8') as f:
-                            json.dump({'text': chunk}, f, ensure_ascii=False, indent=2)
+                            json.dump({
+                                'text': chunk,
+                                'region': self.region
+                            }, f, ensure_ascii=False, indent=2)
                 
                 return str(html_path)
             
-            # Handle other content types (PDF, images, etc.)
+            # Handle other content types
             elif any(content_type.startswith(t) for t in self.allowed_types):
                 subdir = 'pdf' if content_type == 'application/pdf' else \
                         'images' if content_type.startswith('image/') else 'other'
                 
                 file_num = self.page_counter.get_next_number(subdir)
                 ext = content_type.split('/')[-1]
-                filename = f"file_{file_num:04d}.{ext}"
+                filename = f"{self.region}_file_{file_num:04d}.{ext}"
                 
                 file_path = self.dir_manager.get_subdir(subdir) / filename
                 with open(file_path, 'wb') as f:

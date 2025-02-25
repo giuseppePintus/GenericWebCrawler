@@ -1,6 +1,15 @@
 version: '3.8'
 
 services:
+  testing:
+    build: ./docker/testing
+    image: testing-service
+    # Se necessario, mappa volumi o setta variabili:
+    volumes:
+      - ./config:/app/config:ro
+      - ./data:/app/data
+    # Esempio di default command (non obbligatorio se già definito in Dockerfile)
+    command: ["python", "/app/src/notebook/testing_hallucination_detection.py"]
   crawler:
     build:
       context: .
@@ -37,6 +46,9 @@ services:
             - capabilities: [gpu]
     depends_on:
       - milvus
+    networks:
+      - crawler_network
+      - milvus-net
 
   etcd:
     container_name: milvus-etcd
@@ -74,7 +86,7 @@ services:
       retries: 3
 
   milvus:
-    container_name: milvus-standalone
+    container_name: milvus
     image: milvusdb/milvus:v2.3.3
     command: ["milvus", "run", "standalone"]
     environment:
@@ -93,7 +105,11 @@ services:
       interval: 30s
       timeout: 20s
       retries: 3
+    networks:
+      - crawler_network
+      - milvus-net
 
 networks:
-  default:
-    name: crawler_network
+  crawler_network:
+  milvus-net:
+    name: milvus-net

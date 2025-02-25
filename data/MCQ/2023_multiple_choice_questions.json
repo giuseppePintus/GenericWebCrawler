@@ -1,0 +1,775 @@
+[
+    {
+        "question": "Quale delle seguenti opzioni soddisfa i requisiti per dimostrare la sufficiente capacità professionale secondo il bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            5,
+            6
+        ],
+        "answer_choices": [
+            "Essere in possesso di un titolo di studio ad indirizzo agricolo non riconosciuto in Italia",
+            "Frequentare un corso di formazione di 50 ore senza superare l'esame finale",
+            "Avere un diploma di scuola primaria accompagnato da una lettera di raccomandazione",
+            "Essere titolare di un'azienda agricola da almeno due anni senza formazione specifica",
+            "Avere un titolo di studio agricolo o completare un corso di formazione di almeno 150 ore con esame finale presso un Ente regionale accreditato"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale requisito obbligatorio deve essere incluso nei corsi di formazione da 150 ore per dimostrare la capacità professionale?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            5,
+            6
+        ],
+        "answer_choices": [
+            "Tecniche avanzate di apicoltura",
+            "Norme sulla gestione degli allevamenti in alta montagna",
+            "Normative relative alla tutela ambientale in campo agricolo",
+            "Strategie di marketing per il settore vinicolo",
+            "Gestione di serre per colture idroponiche"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale condizione è essenziale per l'ammissibilità del Piano di Sviluppo Aziendale (PSA) nel bando della Regione Emilia-Romagna?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            7
+        ],
+        "answer_choices": [
+            "Deve essere avviato prima della presentazione della domanda",
+            "Deve essere redatto secondo lo schema dell'Allegato B e avviato successivamente alla presentazione della domanda",
+            "Deve essere redatto seguendo un formato libero, senza vincoli di schema",
+            "Deve essere completato entro due anni dalla concessione, senza verifiche intermedie",
+            "Può includere solo azioni già avviate prima della domanda"
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "In quale caso il PSA viene considerato avviato dopo la presentazione della domanda?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            7
+        ],
+        "answer_choices": [
+            "Alla firma del contratto di assunzione di un consulente aziendale",
+            "Alla proposta di acquisto informale di terreni via e-maili",
+            "Alla stipula dei contratti per l’acquisizione di nuovi terreni per espandere l’azienda",
+            "Alla presentazione di un progetto di massima per la ristrutturazione di fabbricati non agricoli",
+            "All’iscrizione a un corso di formazione inferiore a 50 ore non obbligatorio"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale requisito è previsto in caso di pluralità di insediamenti contestuali nella stessa impresa?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            8,
+            9
+        ],
+        "answer_choices": [
+            "È necessario un PSA comune che evidenzi l'apporto di ogni beneficiario, con un premio riconosciuto a ciascun giovane co-insediato",
+            "I giovani co-insediati non ricevono alcun premio individuale",
+            "Il PSA comune non deve includere l'apporto di ciascun beneficiario al processo di sviluppo",
+            "È consentito il co-insediamento di nuovi soggetti durante il periodo di realizzazione del PSA senza restrizioni",
+            "Ogni beneficiario deve presentare un PSA individuale e separato"
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quale condizione si applica in caso di insediamento successivo in una società già beneficiaria di sostegno?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            9
+        ],
+        "answer_choices": [
+            "Il nuovo insediamento non può comportare la chiusura della ditta individuale preesistente",
+            "I nuovi soggetti insediati non devono assumere gli obblighi del giovane precedentemente insediato",
+            "Il nuovo soggetto giuridico deve accollarsi tutti i vincoli e impegni assunti dall’impresa preesistente con l’accettazione del sostegno",
+            "Il grado di responsabilità del nuovo insediato non può essere condiviso con il soggetto precedentemente insediato",
+            "L’insediamento successivo può essere oggetto di un’ulteriore domanda di premio"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quali criteri devono essere rispettati per dimostrare che l'importo del premio è stato integralmente utilizzato per lo sviluppo aziendale?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            10
+        ],
+        "answer_choices": [
+            "Le spese possono includere beni mobili o immobili già presenti in azienda",
+            "Le spese devono essere documentate, collegate al PSA, e di importo pari o superiore al premio percepito, al netto di IVA",
+            "Le spese possono essere rendicontate senza documentazione di spesa o prospetti consuntivi",
+            "Non è necessario che l'importo del premio sia interamente destinato alle azioni previste dal PSA",
+            "È consentito includere spese per beni di consumo o fattori di produzione ad utilità semplice"
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale spesa è computabile per dimostrare l’utilizzo del premio nell’ambito dello sviluppo aziendale?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            10,
+            11
+        ],
+        "answer_choices": [
+            "L'acquisto di capi da ingrasso",
+            "L'acquisto di macchinari usati per ridurre i costi aziendali",
+            "Le rate dei mutui per l’acquisto di terreni o fabbricati nel periodo di vigenza del PSA",
+            "Le spese per beni già costituenti l’azienda oggetto di insediamento",
+            "Le spese per messa a norma di macchine obsolete"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale condizione si applica alla cumulabilità del premio di primo insediamento con altri finanziamenti?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            13
+        ],
+        "answer_choices": [
+            "Può essere cumulato con altri premi di primo insediamento ai sensi dell'art. 75 del Reg. (UE) n. 2115/2021",
+            "Le spese finanziate dal FEASR possono beneficiare di altri finanziamenti UE per le stesse voci di spesa",
+            "Il premio di primo insediamento deve essere incluso nel calcolo dei massimali di aiuto per gli investimenti PSA",
+            "Non ci sono limiti alla cumulabilità con regimi di aiuto nazionali o regionali",
+            "Il premio è alternativo e non cumulabile con altri premi di primo insediamento e non può finanziare le stesse spese sostenute da altri fondi UE"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale condizione limita l'accesso a più fonti di finanziamento per operazioni sostenute dal FEASR?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            13
+        ],
+        "answer_choices": [
+            "Non è possibile ricevere alcun altro aiuto nazionale o regionale",
+            "Gli investimenti finanziati dal FEASR devono avere un’intensità di aiuto inferiore al 50%",
+            "Le stesse voci di spesa non possono essere sostenute contemporaneamente da FEASR e altri fondi UE",
+            "Gli investimenti devono essere realizzati esclusivamente nel centro aziendale principale",
+            "Ogni operazione sostenuta dal FEASR deve essere limitata a una singola UTE"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale fattore determina l'attribuzione del punteggio in relazione all'efficienza idrica degli impianti irrigui?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            19
+        ],
+        "answer_choices": [
+            "Il tipo di coltura irrigata senza considerare l'efficienza dell'impianto",
+            "La localizzazione geografica dell'azienda agricola",
+            "Il costo di installazione dell'impianto",
+            "La pressione atmosferica massima durante l'irrigazione",
+            "L'efficienza percentuale dell'impianto irriguo e la superficie asservita"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quali requisiti devono essere soddisfatti per attribuire il punteggio in base al criterio D2.b sugli interventi atti a diminuire la dispersione di prodotti fitosanitari?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            20
+        ],
+        "answer_choices": [
+            "L’acquisto di qualsiasi macchinario agricolo senza considerare i dispositivi antideriva",
+            "L’installazione di piazzole di lavaggio senza raccolta delle acque",
+            "L’adozione di sistemi aziendali di trattamento chimico non autorizzati",
+            "L’uso di fitosanitari non regolamentati dal PAN",
+            "Gli investimenti devono essere coerenti con il Piano di Azione Nazionale per l’uso sostenibile dei fitofarmaci (PAN), escludendo i sistemi di trattamento privi di autorizzazione"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quali produzioni sono riconosciute ai fini dell’attribuzione del punteggio in relazione al criterio D3.b?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            20
+        ],
+        "answer_choices": [
+            "Prodotti non certificati ottenuti in regime convenzionale",
+            "Bevande alcoliche non conformi ai regolamenti europei",
+            "Produzioni biologiche conformi al Reg. (UE) n. 848/2018 o certificazioni DOP, IGP, e VQPRD riconosciute dai relativi regolamenti europei",
+            "Prodotti senza alcun riferimento al Reg. (UE) n. 1151/2012 o Reg. (UE) n. 1308/2013",
+            "Vini e bevande non iscritte nei registri ufficiali dell’Unione Europea"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale condizione deve essere soddisfatta per attribuire il punteggio relativo al criterio sull’introduzione di una nuova coltura o allevamento?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            21,
+            22
+        ],
+        "answer_choices": [
+            "L’introduzione deve interessare almeno il 5% della superficie agricola utilizzata (SAU)",
+            "Non è necessario mantenere la nuova coltura o allevamento per il periodo vincolativo",
+            "Le spese connesse all’introduzione non devono essere documentate",
+            "Non è richiesta alcuna modifica rispetto alla composizione iniziale dell’azienda",
+            "L’introduzione deve interessare almeno il 15% della SAU o della consistenza zootecnica (UBA) e deve essere mantenuta per il periodo vincolativo"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale condizione deve essere verificata per confermare il punteggio relativo all’investimento per lavorazione, confezionamento o vendita diretta dei prodotti aziendali?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            21,
+            22
+        ],
+        "answer_choices": [
+            "Non è necessaria alcuna registrazione o autorizzazione per l’attività",
+            "L’investimento deve riguardare esclusivamente colture preesistenti",
+            "L’incidenza sulla spesa totale deve essere inferiore al 5%",
+            "L’attività può essere avviata senza alcun controllo comunale o dell’AUSL",
+            "L’incidenza sulla spesa totale deve superare il 5%, con regolare registrazione o autorizzazione del Comune o dell’AUSL, se richiesta"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quali sono i criteri per considerare ammissibili le spese di manodopera volontaria aziendale?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            26
+        ],
+        "answer_choices": [
+            "Le prestazioni volontarie aziendali di manodopera per opere edilizie sono sempre ammissibili",
+            "Non è necessario specificare il numero di ore di manodopera nei progetti",
+            "Tutte le spese di manodopera sono riconosciute senza limiti economici",
+            "Il prezzario regionale non deve essere utilizzato per la quantificazione della manodopera",
+            "Sono ammissibili fino a un massimo di 40.000 euro per ciascun progetto, purché specificate nei progetti e quantificate secondo il prezzario regionale"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale condizione si applica al controllo per evitare il doppio finanziamento nel settore ortofrutticolo?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            26
+        ],
+        "answer_choices": [
+            "Non è richiesto alcun controllo specifico sulle fatture elettroniche",
+            "Le spese possono essere finanziate da più fondi se giustificate dal beneficiario",
+            "Le fatture estere sono escluse dal controllo sul doppio finanziamento",
+            "Non è necessario indicare il CUP o una dicitura equipollente sulle fatture",
+            "Il controllo si effettua verificando la presenza del CUP o equivalente sulle fatture elettroniche o utilizzando banche dati per fatturazione estera o costi standard"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quali interventi sono esclusi dal sostegno nel settore vitivinicolo secondo il bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            27
+        ],
+        "answer_choices": [
+            "Gli investimenti in impianti di trattamento vinicolo per importi superiori a 1.200.000 euro",
+            "Tutti gli interventi di miglioramento delle prestazioni delle aziende viticole",
+            "La realizzazione di progetti di sostenibilità ambientale nei vigneti esistenti",
+            "Gli interventi che non prevedono modifiche alle tecniche di gestione dei vigneti",
+            "La ristrutturazione e riconversione dei vigneti, vendemmia verde e progetti di promozione sui mercati esteri"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale investimento nel settore vitivinicolo è ammesso dal bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            27
+        ],
+        "answer_choices": [
+            "La vendemmia verde per ridurre la produzione",
+            "La conversione di vigneti esistenti a nuove forme di allevamento",
+            "Investimenti in infrastrutture vinicole per importi superiori a 1.200.000 euro",
+            "Il sovrainnesto per migliorare la qualità delle viti",
+            "Il reimpianto di vigneti a seguito di obblighi sanitari"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quali tipi di spesa non sono ammissibili nel bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            28,
+            29
+        ],
+        "answer_choices": [
+            "L'acquisto di macchinari agricoli per migliorare la produttività aziendale",
+            "La costruzione di invasi per uso esclusivamente industriale",
+            "La manutenzione straordinaria di macchinari per l’agricoltura",
+            "Gli interventi finalizzati alla riduzione del consumo energetico aziendale",
+            "La costruzione di impianti di irrigazione, pozzi o fabbricati abitativi"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale delle seguenti spese è considerata non ammissibile secondo il bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            28,
+            29
+        ],
+        "answer_choices": [
+            "Investimenti per la produzione di energia rinnovabile proporzionati al fabbisogno aziendale",
+            "L’acquisto di macchinari agricoli riconosciuti ai sensi del D.M. 454 del 14 dicembre 2001",
+            "Impianti per la produzione di energia da biomasse alimentati con colture dedicate",
+            "Interventi per il miglioramento dei fabbricati produttivi agricoli",
+            "Interventi per lo sviluppo di colture ortofrutticole per l’esportazione"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quali condizioni devono essere rispettate per rendere ammissibili le spese relative a nuovi impianti frutticoli?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            29
+        ],
+        "answer_choices": [
+            "L’utilizzo di materiale di propagazione non certificato purché di origine comunitaria",
+            "La documentazione di almeno una dichiarazione di disponibilità da parte di un vivaista",
+            "La realizzazione degli impianti con piante assemblate in azienda da materiale certificato",
+            "La certificazione volontaria UE senza ulteriori requisiti per tutte le specie frutticole",
+            "L’utilizzo di materiale di propagazione con certificazione volontaria nazionale o, per alcune specie, con certificazione UE o CAC secondo i criteri definiti"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale delle seguenti spese relative ai nuovi impianti frutticoli è considerata non ammissibile a contributo?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            29
+        ],
+        "answer_choices": [
+            "Impianti realizzati con materiale di propagazione con certificazione volontaria nazionale",
+            "Impianti per drupacee con materiale certificato CAC presente nell’elenco approvato annualmente",
+            "Impianti realizzati con materiale di propagazione assemblato in azienda, anche se certificato",
+            "Impianti per pomacee con materiale certificato UE disponibile sul mercato",
+            "Impianti dotati di sistemi di refrigerazione proporzionati alla capacità produttiva aziendale"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale condizione è obbligatoria per validare la domanda di premio nel caso di pluri-insediamenti?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            30
+        ],
+        "answer_choices": [
+            "La domanda può essere firmata da un soggetto diverso da quello indicato nel quadro \"Giovani insediati\"",
+            "Non è necessario utilizzare il sistema informatico SIAG per la compilazione della domanda",
+            "Deve esserci piena corrispondenza tra il soggetto indicato nel quadro \"Persona\" e quello nel quadro \"Giovani insediati\"",
+            "Il Piano colturale 2024 può essere parziale, riferito solo a una parte delle particelle aziendali",
+            "La validazione del Piano colturale 2024 può avvenire dopo la presentazione della domanda"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale condizione si applica alla determinazione della congruità delle spese per impianti complessi come serre o impianti elettrici?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            36
+        ],
+        "answer_choices": [
+            "È obbligatorio utilizzare il computo metrico per tutte le spese senza eccezion",
+            "Non è necessario fornire alcun preventivo in caso di impianti complessi",
+            "La congruità può essere determinata tramite tre preventivi anziché computo metrico anche per interventi complessi",
+            "Per le serre non si applicano le regole di congruità stabilite dal Prontuario dei costi standard",
+            "L'importo delle spese ammissibili può superare i valori definiti dal confronto di offerte"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale criterio si applica al calcolo del punteggio aggiuntivo per l’adesione al \"Pacchetto Giovani\"?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            37,
+            38
+        ],
+        "answer_choices": [
+            "Il punteggio massimo possibile è determinato direttamente dai criteri del tipo d’intervento SRD01 senza alcun limite",
+            "L’intero punteggio relativo ai criteri di priorità del tipo d’intervento SRD01 è aggiunto senza modifiche",
+            "Si calcola 1/3 del punteggio attribuibile in base ai criteri di priorità del tipo d’intervento SRD01, fino a un massimo di 9 punti",
+            "Il punteggio è arrotondato al numero intero più vicino, senza altre regole",
+            "Non è previsto alcun limite per il punteggio derivante dal tipo d’intervento SRD01"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Chi è responsabile dell’adozione degli atti e della gestione delle graduatorie nel bando per lo sviluppo rurale della Regione Emilia-Romagna?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            38
+        ],
+        "answer_choices": [
+            "Il Responsabile del Servizio Caccia e Pesca per l’intera regione",
+            "L’Assessorato alla Transizione Ecologica della Regione Emilia-Romagna",
+            "Il Direttore Generale delle Politiche Agricole a livello nazionale",
+            "Il Servizio URP delle singole province coinvolte",
+            "I Responsabili delle Aree Finanziamenti e il Responsabile del Settore Competitività"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quali sono le condizioni per richiedere una variante al Piano di Sviluppo Aziendale nel bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            39
+        ],
+        "answer_choices": [
+            "È possibile richiedere varianti illimitate durante la durata del PSA",
+            "Non è consentito modificare la durata del PSA inizialmente stabilita",
+            "Le richieste di variante possono essere presentate solo al termine del PSA",
+            "È ammessa una sola variante complessiva per tutta la durata del PSA",
+            "È possibile richiedere una variante ogni anno di durata del PSA e un’ulteriore variante nell’anno di conclusione, rispettando il limite massimo di 36 mesi"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale affermazione è corretta riguardo alle proroghe per il Piano di Sviluppo Aziendale?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            39
+        ],
+        "answer_choices": [
+            "È possibile richiedere una proroga di 6 mesi per eventi imprevisti",
+            "Le proroghe sono concesse solo se la variante è stata presentata entro i termini",
+            "Non sono ammesse proroghe in nessun caso",
+            "Le proroghe sono concesse previa approvazione del Responsabile del procedimento",
+            "È possibile richiedere proroghe solo per motivi legati a cause di forza maggiore"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quali sono le condizioni per richiedere un anticipo del contributo concesso nel bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            39
+        ],
+        "answer_choices": [
+            "È possibile richiedere un anticipo fino al 100% del contributo spettante",
+            "L’anticipo può essere richiesto prima della comunicazione dell’atto di concessione",
+            "Non sono previsti limiti sull’importo dell’anticipo richiesto",
+            "Gli anticipi possono essere richiesti esclusivamente alla fine del progetto",
+            "I beneficiari possono richiedere un anticipo fino al 50% del contributo spettante, dopo la comunicazione dell’atto di concessione"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quali sono i requisiti principali per la documentazione di spesa nella domanda di pagamento a saldo del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            40
+        ],
+        "answer_choices": [
+            "È sufficiente fornire fatture cartacee senza necessità di comprovare l’avvenuto pagamento",
+            "Non è obbligatorio allegare la documentazione relativa ai corsi di formazione previsti dal PSA",
+            "I costi standard non necessitano di verifiche o relazioni finali di progetto",
+            "Le fatture possono essere fornite in qualsiasi formato, senza vincoli",
+            "La documentazione deve includere fatture in formato .xml con prova di pagamento, relazione finale e giustificativi specifici associati al quadro SIAG"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Come viene definita una microimpresa secondo il regolamento?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            45
+        ],
+        "answer_choices": [
+            "Un’impresa che occupa meno di 10 persone e realizza un fatturato annuo e/o un totale di bilancio annuo non superiore a 2 milioni di euro",
+            "Un’impresa che occupa meno di 250 persone e ha un fatturato annuo inferiore a 50 milioni di euro",
+            "Un’impresa che occupa meno di 50 persone e ha un totale di bilancio annuo non superiore a 10 milioni di euro",
+            "Un’impresa che realizza un fatturato annuo inferiore a 43 milioni di euro senza limiti di dipendenti",
+            "Un’impresa che occupa meno di 100 persone e ha un fatturato inferiore a 5 milioni di euro"
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quali dati vengono utilizzati per calcolare gli effettivi e gli importi finanziari delle imprese?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            47
+        ],
+        "answer_choices": [
+            "I dati relativi all’ultimo trimestre dell’esercizio contabile",
+            "I dati stimati per l’anno successivo alla chiusura dei conti.",
+            "I dati dell’ultimo esercizio contabile, comprensivi di IVA e imposte indirette",
+            "I dati del primo esercizio contabile dopo l’inizio del bando",
+            "I dati dell’ultimo esercizio contabile chiuso, calcolati su base annua al netto di IVA e imposte indirette"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale dei seguenti titoli di studio ad indirizzo agricolo attribuisce il punteggio massimo di priorità?",
+        "docx_chunk_ids": [
+            13
+        ],
+        "pdf_chunk_ids": [
+            14
+        ],
+        "answer_choices": [
+            "Diploma o certificato di qualifica professionale triennale",
+            "Diploma professionale quadriennale",
+            "Diploma quinquennale",
+            "Laurea di primo livello",
+            "Laurea magistrale"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale tipo di insediamento del beneficiario riceve il punteggio di priorità massima?",
+        "docx_chunk_ids": [
+            13
+        ],
+        "pdf_chunk_ids": [
+            14
+        ],
+        "answer_choices": [
+            "Insediamento in una zona svantaggiata montana",
+            "Insediamento in una zona con vincoli socio-economici",
+            "Insediamento in un’area agricola periurbana",
+            "Insediamento in una zona con vincoli naturali non montani",
+            "Insediamento in una zona urbana senza vincoli naturali"
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quali titoli di laurea di primo livello sono validi per ottenere il punteggio nella categoria \"B\" nel bando per lo sviluppo rurale?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            14,
+            15
+        ],
+        "answer_choices": [
+            "Solo i titoli di laurea triennali in Scienze Politiche o Giurisprudenza",
+            "Lauree di primo livello di qualsiasi classe del nuovo ordinamento universitario",
+            "Lauree triennali non incluse nel DM 660087 del 23/12/2022",
+            "Solo titoli magistrali o specialistici",
+            "I titoli di laurea triennali appartenenti a specifiche classi, come Biotecnologie o Scienze e Tecnologie Agrarie e Forestali"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale tra i seguenti titoli di laurea magistrale appartiene alle classi valide per l’attribuzione del punteggio alla lettera B?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            14,
+            15
+        ],
+        "answer_choices": [
+            "Laurea magistrale in Giurisprudenza",
+            "Laurea magistrale in Filosofia",
+            "Laurea magistrale in Scienze e Tecnologie alimentari",
+            "Laurea magistrale in Scienze dell’educazione degli adulti",
+            "Laurea magistrale in Scienze Politiche"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale intervento relativo alla sostenibilità energetica riceve il punteggio massimo previsto?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            16
+        ],
+        "answer_choices": [
+            "Produzione di energia elettrica da fonti rinnovabili con spese inferiori al 5% del costo complessivo del progetto",
+            "Efficientamento energetico mediante l’installazione di pannelli solari per scopi non produttivi",
+            "Sostituzione di macchinari con età pari o superiore a 15 anni con macchinari di analoga tipologia",
+            "Progetti che includono l’acquisto di macchinari senza alcuna considerazione per il risparmio energetico",
+            "Efficientamento energetico con sistemi che non riguardano il ciclo produttivo"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quali interventi di sostenibilità ambientale sono premiati nel bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            16,
+            17
+        ],
+        "answer_choices": [
+            "Realizzazione di impianti arborei produttivi su terreni agricoli senza limiti",
+            "Acquisto di macchinari per aumentare la produttività senza specifiche di impatto ambientale",
+            "Progetti per l’ampliamento delle aree di stoccaggio dei prodotti agricoli senza copertura",
+            "Installazione di impianti irrigui a media efficienza senza misure di risparmio",
+            "Riduzione dell’impatto ambientale con attrezzature per diminuire gas serra, piazzole di lavaggio per fitosanitari, o drenaggi compensati da siepi o impianti arboreiRiduzione dell’impatto ambientale con attrezzature per diminuire gas serra, piazzole di lavaggio per fitosanitari, o drenaggi compensati da siepi o impianti arborei"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale intervento è premiato per migliorare l’efficienza irrigua?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            16,
+            17
+        ],
+        "answer_choices": [
+            "Realizzazione di impianti con efficienza media senza requisiti specifici",
+            "Efficienza dell’impianto irriguo non monitorata con sistemi di precisione",
+            "Impianti ad alta efficienza con punteggio attribuito in base a incrementi del 5% nell’efficienza",
+            "Sostituzione di impianti irrigui con nuovi senza migliorare l’efficienza",
+            "Realizzazione di impianti irrigui con materiali riciclati senza monitoraggio"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quali interventi legati alla qualità delle produzioni sono premiati nel bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            17
+        ],
+        "answer_choices": [
+            "Progetti che migliorano la produttività aziendale senza certificazioni aggiuntive",
+            "Filiera produttiva basata su standard non tracciabili riconosciuti solo a livello locale",
+            "Introduzione di marchi aziendali non regolamentati per distinguere i prodotti",
+            "Certificazioni ottenute senza seguire standard riconosciuti a livello europeo o nazionale",
+            "Acquisizione di certificazioni volontarie o adesione a sistemi qualità regolamentati"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale intervento riceve il punteggio massimo nella categoria \"Qualità delle produzioni\"?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            17
+        ],
+        "answer_choices": [
+            "Adesione a SQNPI, SQNZ o QC",
+            "Certificazione per DOP, IGP, VQPRD",
+            "Adesione al sistema di certificazione Biologico",
+            "Acquisizione di rintracciabilità di filiera ISO 22005",
+            "Introduzione di sistemi di qualità non regolamentati"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quali interventi relativi alla diversificazione delle attività aziendali sono premiati nel bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            17,
+            18
+        ],
+        "answer_choices": [
+            "Ampliamento delle superfici coltivate con colture già esistenti",
+            "Investimenti per nuove colture/allevamenti o attività come agriturismi, fattorie didattiche, agricoltura sociale, o trasformazione prodotti aziendali",
+            "Introduzione di macchinari agricoli senza modifiche all’orientamento produttivo",
+            "Attività connesse già precedentemente esercitate dall’azienda",
+            "Diversificazione che non supera il 5% della spesa totale"
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale intervento riceve il punteggio massimo nella categoria \"Diversificazione delle attività\"?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            17,
+            18
+        ],
+        "answer_choices": [
+            "Introduzione di attività agrituristiche per la prima volta",
+            "Trasformazione di prodotti aziendali con incidenza spese inferiore al 5%",
+            "Produzione e vendita di energia da fonti rinnovabili",
+            "Investimento per nuove colture/allevamenti che interessano almeno il 15% della SAU o della consistenza zootecnica",
+            "Investimento in fattorie didattiche con incidenza minima di spesa sul totale"
+        ],
+        "correct_answer_idx": 3
+    },
+    {
+        "question": "Quali interventi per il benessere animale sono premiati nel bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            18,
+            19
+        ],
+        "answer_choices": [
+            "Realizzazione di nuove aree produttive per aumentare la capacità complessiva dell’azienda",
+            "Acquisto di strumenti tecnologici per ottimizzare le operazioni di mungitura",
+            "Ampliamento delle stalle con strutture tradizionali per incrementare il numero di capi allevati",
+            "Installazione di attrezzature per migliorare l’efficienza del ciclo produttivo aziendale",
+            "Adozione di sistemi di allevamento più estensivi e l’adeguamento delle superfici di stabulazione"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale intervento per il benessere animale riceve il punteggio massimo previsto?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            18,
+            19
+        ],
+        "answer_choices": [
+            "Miglioramento delle zone di mungitura o parto per ovicaprini",
+            "Introduzione di sistemi di alimentazione automatizzati per suini",
+            "Cambio dei sistemi di allevamento/stabulazione con orientamento estensivo",
+            "Miglioramento delle zone di mungitura per specie non ovicaprine",
+            "Investimenti per superfici di stabulazione/capo equivalenti ai minimi di legge"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale intervento viene considerato nei criteri PI come miglioramento della digitalizzazione delle aziende?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            23
+        ],
+        "answer_choices": [
+            "L’acquisto di software per la gestione della contabilità aziendale con pagamento di canoni annuali",
+            "La realizzazione di un sito web informativo",
+            "L’acquisto di hardware non collegato a software specifici",
+            "L’utilizzo di piattaforme gratuite per la gestione dei quaderni di campagna",
+            "La realizzazione di un sito web per e-commerce o gestione della contabilità"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Quale progetto è escluso dal punteggio relativo alla riduzione della superficie edificata?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            23,
+            24
+        ],
+        "answer_choices": [
+            "Un progetto dove la riduzione della superficie edificata è compensata dall’aumento delle superfici accessorie come piazzali",
+            "Un progetto che include la demolizione e il recupero della superficie con bonifica",
+            "Un progetto che cumula le superfici relative a pluralità di immobili",
+            "Un progetto che prevede la delocalizzazione della superficie demolita in ambito aziendale",
+            "Un progetto che non prevede interventi su superfici accessorie"
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quale intervento permette di ottenere 5 punti nel punteggio relativo alla prevenzione calamità?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            23,
+            24
+        ],
+        "answer_choices": [
+            "L’installazione di dispositivi antigelate per una porzione limitata del potenziale produttivo agricolo",
+            "La realizzazione di sistemi come reti antinsetto o impianti antigrandine che coprono almeno il 30% della superficie produttiva agricola considerata",
+            "L’adozione di impianti antigrandine che proteggono una superficie agricola superiore al 20%",
+            "La costruzione di piazzali per migliorare l’accesso alle aree produttive",
+            "L’acquisto di macchinari agricoli per aumentare la produttività aziendale"
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale condizione permette di ottenere il punteggio massimo per gli investimenti in zootecnia di precisione?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            25
+        ],
+        "answer_choices": [
+            "La spesa correlata al criterio deve essere compresa tra il 10% e il 40% della spesa totale al netto delle spese generali",
+            "La spesa correlata al criterio deve superare il 40% e arrivare fino al 70% della spesa totale al netto delle spese generali",
+            "La spesa correlata al criterio deve superare il 70% della spesa totale al netto delle spese generali",
+            "La spesa deve essere suddivisa equamente tra strumenti tradizionali e sistemi di automazione",
+            "La spesa correlata deve includere esclusivamente l’acquisto di attrezzature per l’alimentazione animale"
+        ],
+        "correct_answer_idx": 2
+    }
+]

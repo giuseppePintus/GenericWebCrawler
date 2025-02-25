@@ -19,55 +19,50 @@ from pymilvus import (
 
 class ChunkEmbedder:
     def __init__(self, 
-                 model_name: str = 'all-MiniLM-L6-v2',
-                 collection_name: str = 'document_chunks',
+                 model_name: str = settings.EMBEDDER_MODEL,
+                 collection_prefix: str = settings.COLLECTION_PREFIX,
                  dim: int = 384,
                  max_retries: int = 5,
                  reset: bool = False):
         self.model = SentenceTransformer(model_name)
         self.config_path = os.path.join('/config', 'crawler_config.json')
         self.data_dir = os.path.join('/app/data')
-        self.collection_name = collection_name
+        self.collection_prefix = collection_prefix
         self.dim = dim
         self.max_retries = max_retries
+        self.collections = {}  # Track collections by region
         
+        print(f"Using embedder model: {model_name}")
         print(f"Using config file at: {self.config_path}")
-        print(f"Using data directory at: {self.data_dir}")
         
         self.site_configs = self._load_crawler_config()
         self._connect_milvus_with_retry()
 
         if reset:
-            self.reset_collection()
+            self.reset_collections()
             
-        self._setup_collection()
+        self._setup_collections()
 
-    def reset_collection(self):
-        """Reset (drop and recreate) the Milvus collection"""
-        try:
-            if utility.has_collection(self.collection_name):
-                print(f"Dropping existing collection: {self.collection_name}")
-                utility.drop_collection(self.collection_name)
-                print(f"Collection {self.collection_name} dropped successfully")
-            else:
-                print(f"No existing collection found: {self.collection_name}")
-        except Exception as e:
-            raise Exception(f"Failed to reset collection: {str(e)}")
+    def reset_collections(self):
+        """Reset collections for all regions"""
+        regions = self._get_unique_regions()
+        for region in regions:
+            collection_name = f"{self.collection_prefix}{region}"
+            try:
+                if utility.has_collection(collection_name):
+                    print(f"Dropping collection: {collection_name}")
+                    utility.drop_collection(collection_name)
+            except Exception as e:
+                print(f"Error dropping collection {collection_name}: {str(e)}")
 
-    def _load_crawler_config(self) -> Dict:
-        """Load and extract only the sites configuration"""
-        if not os.path.exists(self.config_path):
-            raise Exception(f"Config file not found at: {self.config_path}")
-            
-        try:
-            with open(self.config_path, 'r') as f:
-                config = json.load(f)
-                # Extract only the sites section
-                sites = config.get('sites', {})
-                print(f"Loaded configuration for {len(sites)} sites: {', '.join(sites.keys())}")
-                return sites
-        except Exception as e:
-            raise Exception(f"Failed to load crawler config: {str(e)}")
+    def _get_unique_regions(self) -> List[str]:
+        """Get unique regions from site configs"""
+        regions = set()
+        for site_config in self.site_configs.values():
+            region = site_config.get('region')
+            if region:
+                regions.add(region)
+        return list(regions)
 
     def _connect_milvus_with_retry(self):
         retry_count = 0
@@ -87,38 +82,58 @@ class ChunkEmbedder:
                 print(f"Connection attempt {retry_count} failed, retrying in 5 seconds...")
                 time.sleep(5)
 
-    def _setup_collection(self):
+    def _setup_collections(self):
+        """Setup collections for each region"""
+        regions = self._get_unique_regions()
+        for region in regions:
+            collection_name = f"{self.collection_prefix}{region}"
+            try:
+                if utility.has_collection(collection_name):
+                    print(f"Collection {collection_name} exists")
+                    self.collections[region] = Collection(collection_name)
+                    continue
+
+                fields = [
+                    FieldSchema(name="id", dtype=DataType.INT64, is_primary=True, auto_id=True),
+                    FieldSchema(name="embedding", dtype=DataType.FLOAT_VECTOR, dim=self.dim),
+                    FieldSchema(name="domain", dtype=DataType.VARCHAR, max_length=100),
+                    FieldSchema(name="url", dtype=DataType.VARCHAR, max_length=500),
+                    FieldSchema(name="text", dtype=DataType.VARCHAR, max_length=65535)
+                ]
+                
+                schema = CollectionSchema(
+                    fields=fields,
+                    description=f"Document chunks for {region}",
+                    enable_dynamic_field=False
+                )
+                
+                self.collections[region] = Collection(name=collection_name, schema=schema)
+                
+                index_params = {
+                    "metric_type": "L2",
+                    "index_type": "IVF_FLAT",
+                    "params": {"nlist": 1024}
+                }
+                self.collections[region].create_index(field_name="embedding", index_params=index_params)
+                print(f"Created collection {collection_name}")
+                
+            except Exception as e:
+                print(f"Error setting up collection {collection_name}: {str(e)}")
+
+    def _load_crawler_config(self) -> Dict:
+        """Load and extract only the sites configuration"""
+        if not os.path.exists(self.config_path):
+            raise Exception(f"Config file not found at: {self.config_path}")
+            
         try:
-            if utility.has_collection(self.collection_name):
-                print(f"Collection {self.collection_name} already exists")
-                self.collection = Collection(self.collection_name)
-                return
-
-            fields = [
-                FieldSchema(name="id", dtype=DataType.INT64, is_primary=True, auto_id=True),
-                FieldSchema(name="embedding", dtype=DataType.FLOAT_VECTOR, dim=self.dim),
-                FieldSchema(name="domain", dtype=DataType.VARCHAR, max_length=100),
-                FieldSchema(name="url", dtype=DataType.VARCHAR, max_length=500),
-                FieldSchema(name="text", dtype=DataType.VARCHAR, max_length=65535)
-            ]
-            
-            schema = CollectionSchema(
-                fields=fields,
-                description="Document chunks with embeddings",
-                enable_dynamic_field=False
-            )
-            self.collection = Collection(name=self.collection_name, schema=schema)
-
-            index_params = {
-                "metric_type": "L2",
-                "index_type": "IVF_FLAT",
-                "params": {"nlist": 1024}
-            }
-            self.collection.create_index(field_name="embedding", index_params=index_params)
-            print(f"Collection {self.collection_name} created successfully")
-            
-        except MilvusException as e:
-            raise Exception(f"Failed to setup collection: {str(e)}")
+            with open(self.config_path, 'r') as f:
+                config = json.load(f)
+                # Extract only the sites section
+                sites = config.get('sites', {})
+                print(f"Loaded configuration for {len(sites)} sites: {', '.join(sites.keys())}")
+                return sites
+        except Exception as e:
+            raise Exception(f"Failed to load crawler config: {str(e)}")
 
     def _debug_directory_structure(self, site_name: str):
         """Debug helper to print directory structure"""
@@ -193,6 +208,22 @@ class ChunkEmbedder:
         return self.model.encode(texts)
 
     def process_domain(self, site_name: str):
+        """Process chunks for a domain and add to region-specific collection"""
+        site_config = self.site_configs.get(site_name)
+        if not site_config:
+            print(f"No configuration found for site: {site_name}")
+            return
+            
+        region = site_config.get('region')
+        if not region:
+            print(f"No region specified for site: {site_name}")
+            return
+            
+        collection = self.collections.get(region)
+        if not collection:
+            print(f"No collection found for region: {region}")
+            return
+
         chunks = self.load_chunks(site_name)
         if not chunks:
             print(f"No chunks found for site: {site_name}")
@@ -206,32 +237,37 @@ class ChunkEmbedder:
         print(f"Creating embeddings for {len(valid_chunks)} texts")
         embeddings = self.create_embeddings(valid_chunks)
         
-        # Prepare insert data with explicit string conversion
         insert_data = [
-            embeddings.tolist(),  # embedding field
-            [site_name] * len(valid_chunks),  # domain field
-            [str(chunk.get('url', '')) for chunk in valid_chunks],  # url field
-            [str(chunk['text']) for chunk in valid_chunks]  # text field, ensure string
+            embeddings.tolist(),
+            [site_name] * len(valid_chunks),
+            [str(chunk.get('url', '')) for chunk in valid_chunks],
+            [str(chunk['text']) for chunk in valid_chunks]
         ]
 
         try:
-            print(f"Inserting {len(insert_data)} field arrays with {len(valid_chunks)} chunks each")
-            self.collection.insert(insert_data)
-            print(f"Successfully inserted {len(valid_chunks)} chunks for site: {site_name}")
-        except MilvusException as e:
+            print(f"Inserting {len(valid_chunks)} chunks into {region} collection")
+            collection.insert(insert_data)
+            print(f"Successfully inserted chunks for site: {site_name}")
+        except Exception as e:
             print(f"Failed to insert chunks for site {site_name}: {str(e)}")
             raise
 
     def process_all_domains(self):
-        """Process all sites"""
+        """Process all sites by region"""
         sites = list(self.site_configs.keys())
         print(f"\nProcessing {len(sites)} sites...")
         
-        for i, site_name in enumerate(sites, 1):
-            print(f"\nProcessing site {i}/{len(sites)}: {site_name}")
-            self.process_domain(site_name)
+        for region in self.collections:
+            print(f"\nProcessing region: {region}")
+            region_sites = [site for site, config in self.site_configs.items() 
+                          if config.get('region') == region]
             
-        self.collection.flush()
+            for site_name in region_sites:
+                print(f"Processing site: {site_name}")
+                self.process_domain(site_name)
+            
+            self.collections[region].flush()
+            
         print("\nAll sites processed successfully")
 
 if __name__ == '__main__':

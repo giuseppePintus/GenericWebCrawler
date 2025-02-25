@@ -1,0 +1,827 @@
+[
+    {
+        "question": "Qual è la soglia massima di reddito annuo lordo proveniente da attività lavorative extra-aziendali per i giovani agricoltori insediati nelle altre zone, oltre la quale si verifica la revoca dei benefici previsti dal bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            3
+        ],
+        "answer_choices": [
+            "6.500 Euro",
+            "5.000 Euro",
+            "7.000 Euro",
+            "4.500 Euro",
+            "6.000 Euro"
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quali requisiti devono rispettare i giovani agricoltori insediati in una società semplice (s.s.) per ricevere il premio del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            4
+        ],
+        "answer_choices": [
+            "Essere amministratori unici e avere la maggioranza delle quote sociali.",
+            "Avere la responsabilità per la gestione ordinaria e straordinaria, essere amministratori della società e avere la maggioranza delle quote di utili e sociali.",
+            "Essere amministratori e avere almeno il 25% delle quote sociali.",
+            "Avere un ruolo amministrativo senza alcuna specifica sul numero di quote di utili.",
+            "Essere amministratori della società e rispettare un limite massimo di età senza requisiti aggiuntivi sulle quote."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale condizione deve rispettare un giovane agricoltore insediato in una società a responsabilità limitata (s.r.l.) per ottenere il premio del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            5
+        ],
+        "answer_choices": [
+            "Essere socio con almeno il 25% delle quote e affidare l'amministrazione ad altri membri della società.",
+            "Essere socio di maggioranza e avere affidata dallo Statuto sia l'amministrazione che la rappresentanza della società.",
+            "Essere membro del consiglio di amministrazione senza dover possedere quote di maggioranza.",
+            "Ricoprire il ruolo di amministratore delegato senza alcun riferimento alle quote di partecipazione.",
+            "Avere la maggioranza delle quote sociali senza essere necessariamente amministratore della società."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale tra le seguenti condizioni è richiesta per la regolarità previdenziale di un'impresa agricola ai fini dell'ammissibilità al bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            6
+        ],
+        "answer_choices": [
+            "Essere iscritta all'INPS - gestione agricola, anche senza posizione contributiva regolare.",
+            "Avere una posizione previdenziale regolare sia per l'impresa agricola sia per i soci delle società di persone.",
+            "Dimostrare la regolarità contributiva esclusivamente per l'impresa, indipendentemente dalla posizione dei soci.",
+            "Essere iscritta alla CCIAA senza necessità di ulteriori verifiche previdenziali.",
+            "Essere iscritta all'Anagrafe regionale delle Aziende Agricole senza requisiti contributivi specifici."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale dimensione economica minima deve avere un'azienda agricola situata in una zona con vincoli naturali per essere ammissibile al bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            7
+        ],
+        "answer_choices": [
+            "15.000 Euro di Standard Output",
+            "10.000 Euro di Standard Output",
+            "12.000 Euro di Standard Output",
+            "20.000 Euro di Standard Output",
+            "18.000 Euro di Standard Output"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale delle seguenti condizioni dimostra la sufficiente capacità professionale di un giovane agricoltore secondo il bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            8
+        ],
+        "answer_choices": [
+            "Diploma di laurea in materie economiche.",
+            "Esperienza lavorativa di almeno un anno come dipendente agricolo con mansioni non direttive.",
+            "Titolo di studio in ambito agrario o forestale, come una laurea o un diploma specifico.",
+            "Formazione professionale minima di 50 ore in ambito agricolo negli ultimi dieci anni.",
+            "Esperienza di lavoro di almeno tre anni nel settore agricolo senza necessità di attestati formativi."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale delle seguenti condizioni invalida il Piano di Sviluppo Aziendale (PSA) ai fini del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            9
+        ],
+        "answer_choices": [
+            "Non avviare il PSA entro 9 mesi dalla concessione del premio.",
+            "Includere spese per l'acquisto di nuovi terreni dopo la presentazione della domanda.",
+            "Prevedere la costruzione di beni immobili senza autorizzazione edilizia.",
+            "Non allegare onorari di consulenti alla documentazione del PSA.",
+            "Pianificare corsi di formazione professionale senza dettagli sul loro avvio."
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quale requisito è indispensabile per l'ammissibilità del Piano di Sviluppo Aziendale?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            10
+        ],
+        "answer_choices": [
+            "Presentare il PSA dopo aver completato gli investimenti previsti.",
+            "Dimostrare che il premio sarà interamente utilizzato per lo sviluppo dell'azienda.",
+            "Elaborare il PSA senza indicare un crono-programma degli investimenti.",
+            "Prevedere l'uso parziale del premio per scopi personali.",
+            "Consentire il coinsediamento di nuovi soggetti durante l'esecuzione del PSA senza restrizioni."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale delle seguenti affermazioni è corretta riguardo alla pluralità di insediamenti nello stesso Piano di Sviluppo Aziendale (PSA)?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            11
+        ],
+        "answer_choices": [
+            "Ogni beneficiario deve presentare un PSA individuale per ogni insediamento.",
+            "Il coinsediamento di nuovi soggetti durante il PSA è consentito senza alcuna restrizione.",
+            "È richiesto un unico PSA per più insediamenti contestuali nella stessa azienda, evidenziando l'apporto di ogni beneficiario.",
+            "La pluralità di insediamenti è ammessa solo in caso di aziende con più di 10 dipendenti.",
+            "Il coinsediamento di nuovi soggetti durante il PSA non può essere mai giustificato, nemmeno in caso di forza maggiore."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quali spese non sono considerate correlate allo sviluppo aziendale secondo il bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            12
+        ],
+        "answer_choices": [
+            "Rate di mutui per l'acquisto di terreni strumentali all'attività agricola.",
+            "Beni di consumo e fattori di produzione ad utilità semplice, come i capi da ingrasso.",
+            "Canoni di affitto di nuovi contratti stipulati durante il PSA.",
+            "Spese per la costruzione di nuovi fabbricati produttivi.",
+            "Spese per investimenti necessari a ottemperare a requisiti comunitari vigenti."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale condizione deve essere soddisfatta per dimostrare l'incremento di Dimensione Economica (DE) di un'azienda agricola ai fini del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            13
+        ],
+        "answer_choices": [
+            "Confrontare la DE di partenza con quella ex post basandosi su colture e allevamenti previsti dal Piano Colturale Grafico (PCG).",
+            "Verificare esclusivamente le colture presenti nel primo anno di presentazione della domanda.",
+            "Calcolare la DE solo in base ai dati forniti al momento della domanda, senza aggiornamenti successivi.",
+            "Considerare un incremento minimo del 10% rispetto alla DE di partenza, senza altre verifiche.",
+            "Basare il calcolo su una proiezione teorica di produzioni future non documentate nel PCG."
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quale delle seguenti affermazioni è corretta per il calcolo della Dimensione Economica (DE) di un'azienda agricola nel bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            14
+        ],
+        "answer_choices": [
+            "La DE ex post deve essere calcolata esclusivamente sulle colture previste al momento della domanda.",
+            "Le colture/allevamenti previsti dal PSA e non riconosciuti nella Tabella INEA saranno comunque computati.",
+            "Il Piano Colturale Grafico (PCG) è utilizzato per determinare sia la DE ex ante che la DE ex post.",
+            "Le rettifiche al Piano Colturale non influenzano il calcolo della DE ai fini del contributo.",
+            "La consistenza zootecnica non è rilevante per il calcolo della DE ex ante."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale condizione è necessaria affinché un'azienda sia riconosciuta come 'insediamento in zona con vincoli naturali o altri vincoli specifici' ai fini del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            15
+        ],
+        "answer_choices": [
+            "Almeno il 30% della SAU aziendale deve ricadere in zona con vincoli naturali o altri vincoli specifici.",
+            "Il centro aziendale deve trovarsi al di fuori di zone con vincoli naturali, ma la SAU deve essere per il 100% in queste aree.",
+            "Il centro aziendale deve ricadere in zona con vincoli naturali o altri vincoli specifici, e almeno il 50% della SAU aziendale deve essere in queste aree.",
+            "La SAU aziendale deve essere interamente situata in zone con vincoli naturali o altri vincoli specifici, indipendentemente dalla posizione del centro aziendale.",
+            "L'azienda deve avere almeno una UTE situata in zona con vincoli naturali o altri vincoli specifici."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Qual è il punteggio di priorità assegnato a un'azienda insediata in zona con vincoli naturali o altri vincoli specifici?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            16
+        ],
+        "answer_choices": [
+            "10 punti",
+            "20 punti",
+            "15 punti",
+            "5 punti",
+            "30 punti"
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quali lauree magistrali sono riconosciute per ottenere il punteggio di priorità legato al titolo di studio nel bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            17
+        ],
+        "answer_choices": [
+            "Le lauree magistrali in Medicina, Scienze Politiche e Ingegneria Elettronica.",
+            "Le lauree magistrali in Biologia, Scienze Zootecniche e Scienze Forestali.",
+            "Le lauree magistrali in Biologia, Biotecnologie Industriali e Ingegneria Agraria.",
+            "Le lauree magistrali in Chimica, Scienze Ambientali e Architettura.",
+            "Le lauree magistrali in Scienze Umane, Scienze Sociali e Scienze Naturali."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale condizione è necessaria per ottenere il punteggio relativo all'impresa che utilizza aree agricole riclassificate o riconvertite (lettera D) secondo i criteri di priorità del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            18
+        ],
+        "answer_choices": [
+            "Avere firmato un contratto con un comune per l'uso di aree agricole protette.",
+            "Aver aderito formalmente ai processi di riclassificazione di aree potenzialmente urbanizzabili in aree agricole definite dai PSC.",
+            "Possedere almeno il 50% della superficie agricola utile in aree classificate come zone con vincoli naturali.",
+            "Utilizzare aree agricole di proprietà pubblica riconvertite a scopi agricoli mediante convenzioni regionali.",
+            "Presentare un progetto per l'uso di aree agricole in zone soggette a restrizioni ambientali."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale azione di sostenibilità ambientale attribuisce un punteggio di 3 punti e richiede la realizzazione di interventi su superfici recuperate a seguito di drenaggi sotterranei?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            19
+        ],
+        "answer_choices": [
+            "Realizzazione di fasce tampone e creazione di aree umide/bacini di fitodepurazione.",
+            "Sistemi per la coibentazione e tenuta dell'aria.",
+            "Interventi di recupero e riutilizzo di acqua/calore aziendali.",
+            "Realizzazione di impianti arborei non produttivi o siepi su terreni agricoli recuperati.",
+            "Acquisto di macchinari per l'agricoltura conservativa ('agricoltura blu')."
+        ],
+        "correct_answer_idx": 3
+    },
+    {
+        "question": "Secondo i criteri di priorità del bando, quale intervento relativo alla diversificazione delle attività assegna un punteggio massimo di 3 punti?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            20
+        ],
+        "answer_choices": [
+            "Introduzione di fattorie didattiche nell'azienda agricola.",
+            "Produzione e vendita di energia da fonti rinnovabili (NO colture dedicate).",
+            "Trasformazione di prodotti aziendali.",
+            "Lavorazione e vendita diretta di prodotti aziendali confezionati.",
+            "Introduzione di agriturismo come attività ex novo."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale tecnica irrigua attribuisce il massimo livello di efficienza (90%) e appartiene alla Classe A secondo i criteri del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            21
+        ],
+        "answer_choices": [
+            "Spruzzatori sovrachioma con erogatori aventi coefficiente di variazione della portata < 10%.",
+            "Rotolone con barra nebulizzatrice a bassa pressione dotato di centralina elettronica di controllo.",
+            "Pivot o Rainger attrezzati con calata per avvicinare l'erogatore alla coltura e sistema di controllo della velocità.",
+            "Irrigazione a goccia con erogatori aventi coefficiente di variazione della portata < 5%.",
+            "Spruzzatori sottochioma con erogatori aventi coefficiente di variazione della portata < 10%."
+        ],
+        "correct_answer_idx": 3
+    },
+    {
+        "question": "Qual è il requisito necessario per ottenere il punteggio massimo di 9 punti per un impianto irriguo secondo i criteri del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            22
+        ],
+        "answer_choices": [
+            "L'impianto deve servire almeno 2 ettari di colture arboree o 5 ettari di colture erbacee.",
+            "L'impianto deve utilizzare irrigazione a goccia con coefficiente di variazione della portata < 5%.",
+            "L'impianto deve funzionare con pressioni inferiori a 3 bar e avere un sistema di controllo della velocità.",
+            "L'impianto deve essere conforme al Piano di Azione Nazionale per l'uso sostenibile dei fitofarmaci.",
+            "L'impianto deve utilizzare spruzzatori sottochioma con coefficiente di variazione della portata < 10%."
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quali produzioni possono ottenere il punteggio relativo all'azione f 4 (certificazioni di qualità regolamentate) secondo i criteri del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            23
+        ],
+        "answer_choices": [
+            "Produzioni certificate SQNPI, SQNZ e QC, purché rispettino le normative comunitarie e regionali.",
+            "Produzioni biologiche ottenute ai sensi del Reg. (CE) n. 834/2007 e Reg. (UE) n. 848/2018.",
+            "Bevande spiritose e vini aromatizzati conformi alle norme europee di qualità.",
+            "Prodotti agricoli certificati secondo il Reg. (UE) n. 1151/2012 per DOP e IGP.",
+            "Qualsiasi prodotto agricolo con un certificato rilasciato da enti privati riconosciuti."
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quale requisito è necessario per ottenere il punteggio relativo all'azione g 1 sulla diversificazione produttiva nel PSA?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            24
+        ],
+        "answer_choices": [
+            "Introduzione di una nuova coltura o allevamento con un'incidenza minima del 15% rispetto al Standard Output complessivo iniziale.",
+            "Incremento della superficie aziendale coltivata di almeno il 10%.",
+            "Introduzione di colture biologiche certificate entro il termine di realizzazione del PSA.",
+            "Adozione di tecniche agronomiche per la riduzione dei fitofarmaci.",
+            "Apertura di una nuova attività agrituristica legata all'azienda agricola."
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quali condizioni devono essere rispettate per ottenere il punteggio associato all'azione l, relativa alla biosicurezza negli allevamenti, secondo i criteri del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            25
+        ],
+        "answer_choices": [
+            "Realizzare investimenti che rispettino gli obblighi cogenti di legge per le specie zootecniche allevate.",
+            "Adottare misure di biosicurezza che vadano oltre gli obblighi cogenti previsti dalla normativa di settore.",
+            "Installare sistemi di monitoraggio automatizzati per la salute degli animali in allevamento.",
+            "Ridurre del 10% l'uso di farmaci veterinari tramite interventi di prevenzione.",
+            "Conformarsi esclusivamente al Regolamento (UE) n. 429/2016 relativo alle malattie animali trasmissibili."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale obiettivo persegue il tipo di operazione 4.1.02 nell’ambito del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            26
+        ],
+        "answer_choices": [
+            "Favorire l’acquisto di nuove attrezzature per il miglioramento delle tecniche produttive.",
+            "Sostenere lo sviluppo, il miglioramento delle prestazioni e la sostenibilità globale delle aziende agricole dei giovani agricoltori.",
+            "Promuovere esclusivamente l’adeguamento delle aziende agricole alle normative comunitarie sulla sicurezza sul lavoro.",
+            "Incentivare la diversificazione produttiva nelle aziende agricole già consolidate.",
+            "Supportare gli investimenti in innovazione tecnologica a prescindere dagli obiettivi del Piano di Sviluppo Aziendale."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale condizione deve soddisfare un Piano di Investimenti (PI) per essere considerato ammissibile secondo i criteri del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            27
+        ],
+        "answer_choices": [
+            "Prevedere spese superiori a 15.000 Euro indipendentemente dalla zona geografica.",
+            "Essere finalizzato esclusivamente alla conformità a normative cogenti scadute entro i termini del PSA.",
+            "Avere un importo minimo di spesa ammissibile di 10.000 Euro in zone con vincoli naturali o 20.000 Euro nelle altre zone.",
+            "Prevedere un completamento degli investimenti antecedente a quello del Piano di Sviluppo Aziendale.",
+            "Ottenere un punteggio di merito minimo di 3 punti secondo i criteri di priorità del bando."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quali investimenti sono considerati ammissibili per il contributo sul tipo di operazione 4.1.02, secondo i criteri del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            28
+        ],
+        "answer_choices": [
+            "Costruzione e ristrutturazione di immobili residenziali per i lavoratori agricoli.",
+            "Macchinari e attrezzature per migliorare la sostenibilità globale dell'azienda agricola.",
+            "Investimenti in sistemi di irrigazione per nuovi vigneti secondo il regime di ristrutturazione.",
+            "Spese per la promozione dei prodotti aziendali sui mercati internazionali.",
+            "Impianti di trattamento e infrastrutture vinicole con importi inferiori a 800.000,00 Euro."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quali interventi nel settore vitivinicolo sono esclusi dal tipo di operazione 4.1.02 secondo il bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            29
+        ],
+        "answer_choices": [
+            "Ristrutturazione e riconversione di vigneti, incluso il reimpianto obbligatorio per ragioni sanitarie o fitosanitarie.",
+            "Investimenti in infrastrutture vinicole per importi superiori a 800.000 Euro.",
+            "Misure per migliorare le tecniche di gestione dei vigneti, come impianti irrigui su vigneti esistenti.",
+            "Promozione dei prodotti vinicoli sui mercati locali.",
+            "Vendemmia mirata a garantire una qualità superiore dei raccolti."
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quali investimenti sono esclusi dal tipo di operazione 4.1.02 secondo i criteri di ammissibilità del bando?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            30
+        ],
+        "answer_choices": [
+            "L'acquisto di macchinari per lavori agricoli riconosciuti dal D.M. 454 del 14 dicembre 2001.",
+            "La realizzazione di impianti per la produzione di energia elettrica da biomasse con almeno il 20% di utilizzo di energia termica.",
+            "L'acquisto di diritti di produzione agricola e di animali.",
+            "Impianti fotovoltaici dotati di dispositivi per il consumo esclusivamente aziendale.",
+            "Investimenti in impianti per la lavorazione e trasformazione di prodotti agricoli aziendali."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale tra i seguenti investimenti non è ammissibile a contributo secondo il bando per il tipo di operazione 4.1.02?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            31
+        ],
+        "answer_choices": [
+            "L'acquisto di dotazioni usate o con la formula del leasing.",
+            "L'installazione di impianti fotovoltaici con sistemi di autoconsumo aziendale.",
+            "La realizzazione di nuovi impianti frutticoli con materiale di propagazione certificato CAC.",
+            "L'acquisto di macchinari agricoli nuovi per migliorare le tecniche produttive.",
+            "Investimenti finalizzati alla produzione di energia da biomasse con utilizzo del 20% di energia termica."
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quali limitazioni si applicano agli impianti frutticoli per essere ammissibili al contributo nel settore ortofrutta?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            32
+        ],
+        "answer_choices": [
+            "Devono essere realizzati esclusivamente con materiale di propagazione certificato CAC, indipendentemente dalla specie.",
+            "Devono utilizzare materiale di propagazione certificato volontario nazionale o, in alternativa, certificato UE/CAC in caso di indisponibilità documentata.",
+            "Devono includere impianti di refrigerazione con capacità superiore a quella produttiva aziendale.",
+            "Devono essere realizzati con piante assemblate in azienda, purché il piede e il nesto siano certificati.",
+            "Devono essere dotati di sovrainnesti aziendali certificati per aumentare la varietà produttiva."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quali sono le condizioni per ottenere 5 punti in base ai criteri di priorità riferiti alla spesa dedicata al prodotto conferito ad Organizzazioni di Produttori (OP)?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            33
+        ],
+        "answer_choices": [
+            "La spesa per investimenti funzionali al prodotto conferito ad OP deve essere compresa tra il 20% e il 50% della spesa totale ammissibile del PI.",
+            "La spesa per investimenti funzionali al prodotto conferito ad OP deve superare il 50% della spesa totale ammissibile del PI.",
+            "La spesa per investimenti funzionali al prodotto conferito ad OP deve rappresentare almeno l'80% della spesa totale ammissibile del PI.",
+            "La spesa per investimenti funzionali al prodotto conferito ad OP deve essere compresa tra l'81% e il 100% della spesa totale ammissibile del PI.",
+            "La spesa per investimenti funzionali al prodotto conferito ad OP deve essere inferiore al 20% della spesa totale ammissibile del PI."
+        ],
+        "correct_answer_idx": 3
+    },
+    {
+        "question": "Quale punteggio si ottiene per investimenti finalizzati a migliorare il benessere animale con accesso ad aree esterne o pascolo?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            34
+        ],
+        "answer_choices": [
+            "1 punto",
+            "3 punti",
+            "4 punti",
+            "5 punti",
+            "6 punti"
+        ],
+        "correct_answer_idx": 3
+    },
+    {
+        "question": "Qual è il punteggio attribuito a un progetto che prevede la demolizione totale e la ricostruzione su un'area già edificata con una riduzione minima del 20% della superficie impermeabilizzata?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            35
+        ],
+        "answer_choices": [
+            "1 punto",
+            "2 punti",
+            "3 punti",
+            "4 punti",
+            "5 punti"
+        ],
+        "correct_answer_idx": 4
+    },
+    {
+        "question": "Qual è il termine ultimo per presentare le domande di sostegno su modulistica ordinaria per il bando relativo all'operazione 4.1.02?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            44
+        ],
+        "answer_choices": [
+            "21 dicembre 2021",
+            "27 maggio 2022 alle ore 13:00",
+            "21 febbraio 2022",
+            "8 giugno 2022",
+            "28 novembre 2016"
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Qual è il termine ultimo per integrare documenti mancanti o correggere errori nella domanda di sostegno presentata sul SIAG?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            45
+        ],
+        "answer_choices": [
+            "27 maggio 2022 alle ore 13:00",
+            "21 dicembre 2021",
+            "8 giugno 2022",
+            "28 novembre 2016",
+            "3 marzo 2017"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale documento deve essere obbligatoriamente allegato alla domanda per accedere al contributo del tipo di operazione 4.1.02?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            46
+        ],
+        "answer_choices": [
+            "Un contratto di vendita dei prodotti aziendali validato dall'Organizzazione di Produttori.",
+            "Un Piano degli Investimenti (PI) con relazione tecnica descrittiva e tempi di realizzazione.",
+            "Un'analisi finanziaria dettagliata del mercato agricolo regionale.",
+            "La documentazione relativa ai prestiti bancari contratti per investimenti aziendali.",
+            "Un certificato di formazione professionale del richiedente rilasciato nell'ultimo anno."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Quale documentazione deve essere obbligatoriamente allegata alla domanda in caso di interventi edili?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            47
+        ],
+        "answer_choices": [
+            "Un unico preventivo di spesa redatto da un tecnico abilitato.",
+            "Tre preventivi con documentazione che dimostri la ricerca di mercato effettuata e un computo metrico estimativo.",
+            "Una copia dei mappali catastali senza alcuna indicazione dell'ubicazione delle opere.",
+            "Una dichiarazione di conformità rilasciata da un ente terzo.",
+            "Solo un disegno progettuale, indipendentemente dalla tipologia di intervento richiesto."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Qual è il requisito per la presentazione della domanda di contributo in caso di mancanza di autorizzazioni come la Valutazione di Impatto Ambientale (VIA) o il Permesso di Costruire?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            48
+        ],
+        "answer_choices": [
+            "Le autorizzazioni devono essere obbligatoriamente possedute e allegate alla domanda al momento della presentazione.",
+            "È sufficiente una dichiarazione del tecnico progettista che attesti la necessità delle autorizzazioni.",
+            "Deve essere presentata una dichiarazione con gli estremi del protocollo della richiesta all'ente competente.",
+            "Le autorizzazioni possono essere presentate entro la fine dei lavori senza alcun vincolo temporale.",
+            "Le autorizzazioni sono richieste solo per interventi in zone SIC-ZPS, e non per altri tipi di intervento."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Qual è la soglia minima di punteggio di merito richiesta per l'ammissibilità del Piano degli Investimenti (PI) nel bando relativo all'operazione 4.1.02?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            49
+        ],
+        "answer_choices": [
+            "3 punti",
+            "4 punti",
+            "5 punti",
+            "6 punti",
+            "10 punti"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Qual è il punteggio complessivo minimo richiesto per l'ammissibilità della domanda nel bando relativo al 'Pacchetto giovani'?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            50
+        ],
+        "answer_choices": [
+            "4 punti",
+            "5 punti",
+            "6 punti",
+            "9 punti",
+            "7 punti"
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "In caso di parità di punteggio, quale criterio di precedenza viene applicato nella graduatoria del 'Pacchetto giovani'?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            51
+        ],
+        "answer_choices": [
+            "L'iniziativa con il maggior numero di investimenti qualificati nel PI.",
+            "L'impresa con il maggior numero di occupati.",
+            "L'impresa a prevalente partecipazione femminile.",
+            "Il progetto con il più alto punteggio relativo alla sostenibilità ambientale.",
+            "L'iniziativa con il maggiore valore economico complessivo."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Cosa accade se la disponibilità finanziaria consente solo il finanziamento parziale del premio o del contributo?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            52
+        ],
+        "answer_choices": [
+            "Il progetto viene escluso automaticamente dalla graduatoria.",
+            "Il giovane deve presentare un nuovo progetto adeguato al finanziamento parziale entro 30 giorni.",
+            "Il giovane può accettare il finanziamento parziale e presentare una variante al progetto per adattarlo.",
+            "Il contributo viene ridistribuito tra tutti i richiedenti in base alla priorità.",
+            "Il premio viene assegnato solo se il progetto è completamente finanziabile."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale requisito deve soddisfare la fattura elettronica affinché sia ritenuta ammissibile ai fini del PSA/PI?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            53
+        ],
+        "answer_choices": [
+            "Deve riportare il Codice Unico di Progetto (CUP) o una scrittura equipollente nel campo note.",
+            "Deve essere emessa da un fornitore nazionale iscritto al registro delle imprese agricole.",
+            "Deve essere accompagnata da una copia cartacea autenticata da un notaio.",
+            "Deve contenere l'indicazione della data di approvazione della domanda sul SIAG.",
+            "Deve essere caricata esclusivamente in formato PDF senza allegati XML."
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quale elemento deve includere obbligatoriamente il campo note della fattura elettronica per essere considerata valida ai fini del PSA/PI?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            54
+        ],
+        "answer_choices": [
+            "Il Codice Unico di Progetto (CUP) o una scrittura equipollente.",
+            "La firma digitale del rappresentante legale dell'azienda.",
+            "La data di approvazione della graduatoria generale.",
+            "Il numero di partita IVA dell'ente emittente.",
+            "Un riferimento al tipo di operazione 4.1.02 senza ulteriori specifiche."
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quali modifiche agli investimenti nel PSA non sono considerate oggetto di variante formale?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            55
+        ],
+        "answer_choices": [
+            "Cambi di preventivo senza palese identificazione del bene.",
+            "Modifiche che comportano un aumento della dimensione economica attesa.",
+            "Soluzioni tecniche migliorative contenute entro il 10% della spesa ammissibile.",
+            "Investimenti che richiedono specifiche autorizzazioni non presentate alla data stabilita.",
+            "Modifiche al piano colturale che riducono la coerenza complessiva del PSA."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quali modifiche agli investimenti nel PSA non sono considerate oggetto di variante formale?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            56
+        ],
+        "answer_choices": [
+            "Cambi di preventivo senza palese identificazione del bene.",
+            "Modifiche che comportano un aumento della dimensione economica attesa.",
+            "Soluzioni tecniche migliorative contenute entro il 10% della spesa ammissibile.",
+            "Investimenti che richiedono specifiche autorizzazioni non presentate alla data stabilita.",
+            "Modifiche al piano colturale che riducono la coerenza complessiva del PSA."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quali sono le modalità accettabili per dimostrare la congruità della spesa nei casi di acquisto di macchinari o attrezzature con caratteristiche uniche?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            57
+        ],
+        "answer_choices": [
+            "Attraverso almeno tre preventivi di ditte specializzate con quadro di raffronto e documentazione sulla ricerca di mercato.",
+            "Presentando una relazione tecnica di uno specialista che attesti la specificità e l'efficacia del bene rispetto ad alternative similari.",
+            "Attraverso un computo metrico estimativo con riferimento al Prezzario regionale delle opere agricole.",
+            "Con una dichiarazione del fornitore che garantisca l'unicità e l'utilità del bene per il progetto.",
+            "Attraverso un'autocertificazione del beneficiario che dimostri la necessità del macchinario per l'azienda."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Qual è il metodo richiesto per dimostrare la congruità della spesa nei casi in cui il confronto tra diverse offerte non sia utilizzabile per l'acquisto di macchinari unici?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            58
+        ],
+        "answer_choices": [
+            "Presentare una relazione tecnica redatta da uno specialista del settore indipendente, che descriva l'investimento e ne attesti l'unicità.",
+            "Allegare tre preventivi di ditte specializzate e un quadro comparativo delle offerte ricevute.",
+            "Utilizzare il Prezzario regionale per opere e interventi in agricoltura per stimare il valore dell'investimento.",
+            "Compilare e allegare un file Excel standard fornito dalla Regione Emilia-Romagna con i dati del macchinario.",
+            "Presentare una dichiarazione del fornitore che attesti la specificità e il valore del bene."
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quale requisito è necessario per la liquidazione della seconda tranche del premio di primo insediamento relativo al tipo di operazione 6.1.01?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            59
+        ],
+        "answer_choices": [
+            "La presentazione di tre preventivi per ogni investimento previsto nel PSA.",
+            "La verifica della completa e corretta realizzazione del PSA e il raggiungimento dei requisiti eventualmente mancanti.",
+            "L'ottenimento di un punteggio minimo di 6 punti nel PSA e PI.",
+            "La presentazione di una garanzia fidejussoria per un importo pari al 60% del premio spettante.",
+            "La certificazione di adesione a sistemi di qualità regolamentati."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "Qual è la condizione per l'erogazione della seconda tranche del premio di primo insediamento relativo al tipo di operazione 6.1.01?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            60
+        ],
+        "answer_choices": [
+            "La sottoscrizione di un contratto di fidejussione per un importo pari al 60% del premio spettante.",
+            "L'approvazione formale da parte di AGREA della domanda di insediamento.",
+            "La verifica della completa e corretta realizzazione del PSA e del raggiungimento dei requisiti eventualmente mancanti.",
+            "La presentazione di tre preventivi approvati per ogni intervento incluso nel PSA.",
+            "L'adozione di un sistema di certificazione di qualità regolamentata."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Qual è una delle condizioni che possono portare alla revoca del contributo erogato nell'ambito del bando per l'insediamento di giovani agricoltori?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            61
+        ],
+        "answer_choices": [
+            "Il mancato rispetto del vincolo di destinazione stabilito dall'art. 10 della L.R. n. 15/2021.",
+            "La mancata compilazione del Prezzario regionale per opere ed interventi in agricoltura.",
+            "La presentazione di documentazione relativa al piano aziendale oltre il termine di 9 mesi dalla concessione.",
+            "L'assenza di preventivi per l'acquisto di macchinari.",
+            "Il raggiungimento degli obiettivi stabiliti nel PSA, ma con ritardi non giustificati."
+        ],
+        "correct_answer_idx": 0
+    },
+    {
+        "question": "Quale di queste condizioni definisce una microimpresa secondo il Reg. (UE) n. 702/2014?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            63
+        ],
+        "answer_choices": [
+            "Un'impresa che occupa meno di 50 persone e realizza un fatturato annuo non superiore a 10 milioni di EUR.",
+            "Un'impresa che occupa meno di 10 persone e realizza un fatturato annuo e/o un totale di bilancio non superiore a 2 milioni di EUR.",
+            "Un'impresa con un totale di bilancio annuo superiore a 43 milioni di EUR.",
+            "Un'impresa che realizza un fatturato annuo inferiore a 50 milioni di EUR senza limiti di occupazione.",
+            "Un'impresa in cui una società pubblica di partecipazione detiene oltre il 50% del capitale."
+        ],
+        "correct_answer_idx": 1
+    },
+    {
+        "question": "In quale caso due imprese NON sono considerate collegate ai sensi del Reg. (UE) n. 702/2014?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            65
+        ],
+        "answer_choices": [
+            "Una impresa detiene la maggioranza dei diritti di voto degli azionisti di un'altra impresa.",
+            "Un gruppo di persone fisiche agisce di concerto controllando imprese che operano sullo stesso mercato rilevante.",
+            "Un'impresa ha il diritto di esercitare un'influenza dominante su un'altra tramite clausola statutaria.",
+            "Una impresa detiene meno del 25% del capitale sociale di un'altra, senza alcun controllo sui diritti di voto.",
+            "Una impresa ha il diritto di nominare la maggioranza dei membri del consiglio di amministrazione di un'altra."
+        ],
+        "correct_answer_idx": 3
+    },
+    {
+        "question": "Come vengono determinati i dati relativi agli effettivi (ULA) di un’impresa autonoma rispetto a un’impresa associata o collegata, secondo il Regolamento (UE) n. 702/2014?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            67
+        ],
+        "answer_choices": [
+            "Esclusivamente dai conti dell'impresa autonoma stessa.",
+            "Esclusivamente dai conti consolidati delle imprese associate o collegate.",
+            "Dai conti dell'impresa autonoma e da quelli di eventuali imprese associate o collegate, aggregati proporzionalmente.",
+            "Solo dai dati aggregati di tutte le imprese collegate a monte e a valle.",
+            "Dai conti dell'impresa autonoma e da una stima proporzionale basata su partecipazioni incrociate."
+        ],
+        "correct_answer_idx": 2
+    },
+    {
+        "question": "Quale condizione deve essere rispettata affinché un investimento sia considerato un 'concreto miglioramento' delle prestazioni e della sostenibilità globale dell'azienda agricola ai sensi del tipo di operazione 4.1.02?",
+        "docx_chunk_ids": [],
+        "pdf_chunk_ids": [
+            68
+        ],
+        "answer_choices": [
+            "L'azienda deve introdurre una macchina o attrezzatura mai utilizzata nel settore agricolo.",
+            "Devono essere adottate innovazioni o cambiamenti significativi rispetto alla situazione aziendale esistente, con miglioramenti misurabili in almeno uno degli aspetti definiti.",
+            "L'investimento deve migliorare simultaneamente tutti gli aspetti legati ad ambiente, sicurezza e benessere animale.",
+            "L'azienda deve diversificare le colture o allevamenti ogni anno per mantenere il requisito di sostenibilità.",
+            "Gli investimenti devono essere limitati all'acquisto di nuove macchine con potenza superiore a 110 kW."
+        ],
+        "correct_answer_idx": 1
+    }
+]

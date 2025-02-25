@@ -20,6 +20,7 @@
     "agrea": {
       "domain": "agrea.regione.emilia-romagna.it",
       "start_url": "https://agrea.regione.emilia-romagna.it/",
+      "region": "emilia-romagna",
       "max_pages": 200,
       "delay": 2.0,
       "allowed_types": ["text/html", "application/pdf"]
@@ -27,12 +28,14 @@
     "agricoltura": {
       "domain": "agricoltura.regione.emilia-romagna.it",
       "start_url": "https://agricoltura.regione.emilia-romagna.it/",
+      "region": "emilia-romagna",
       "max_pages": 150,
       "delay": 1.5
     },
     "avepa": {
       "domain": "www.avepa.it",
       "start_url": "https://www.avepa.it/",
+      "region": "veneto",
       "allowed_types": ["text/html", "application/pdf", "image/jpeg"]
     }
   }
