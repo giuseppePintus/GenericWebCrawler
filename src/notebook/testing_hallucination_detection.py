@@ -634,16 +634,15 @@ if __name__ == "__main__":
     del embedder
     gc.collect()
     
-    #"meta-llama/Llama-2-7b-chat-hf"
     # 5) Modelli (<= 24GB in FP16)
     model_names = [
-        "google/gemma-2-9b",
-        "mistralai/Mistral-7B-Instruct-v0.3",
-        "Qwen/Qwen-7B-Chat",
-        "bigscience/bloom-3b",
-        "openlm-research/open_llama_7b",
-        "microsoft/Phi-1.5"
+        "bigscience/bloom-3b",  # ~6.7 GB VRAM - Open-source, licenza RAIL
+        "openlm-research/open_llama_7b",  # ~13 GB VRAM - Open LLaMA, licenza Apache 2.0
+        "microsoft/Phi-1.5",  # ~4 GB VRAM - Microsoft, licenza MIT
+        "mistralai/Mistral-7B-Instruct",  # ~13 GB VRAM - Variante Instruct, open-source
+        "NousResearch/Nous-Hermes-2-Mistral-7B",  # ~13 GB VRAM - Ottimizzato per chat AI
     ]
+
 
     # 6) Eseguiamo i calcoli con la funzione su ciascuno dei 4 DF
     all_dfs = {
@@ -652,6 +651,7 @@ if __name__ == "__main__":
         "without_context_mc": df_without_context_mc,
         "without_context_open": df_without_context_open
     }
+    output_dir = "/app/output/"
 
     for key_name, df_input in all_dfs.items():
         print(f"\n===== ESECUZIONE SU: {key_name} =====\n")
@@ -669,7 +669,7 @@ if __name__ == "__main__":
         )
 
         final_df = results_dict["final_results_df"]
-        final_df.to_csv(f"final_results_{key_name}.csv", index=False)
+        final_df.to_csv(f"{output_dir}final_results_{key_name}.csv", index=False)
 
         # Unisci le metriche
         metrics_all = pd.concat([
@@ -679,7 +679,7 @@ if __name__ == "__main__":
             results_dict["metric_base_df"],
             results_dict["metric_linear_df"]
         ], ignore_index=True)
-        metrics_all.to_csv(f"metrics_{key_name}.csv", index=False)
+        metrics_all.to_csv(f"{output_dir}metrics_{key_name}.csv", index=False)
 
         print(f"Salvati final_results_{key_name}.csv e metrics_{key_name}.csv")
 

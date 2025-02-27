@@ -7,6 +7,7 @@ make build-testing
 docker-compose run --rm \
     -v ${PWD}/config:/app/config:ro \
     -v ${PWD}/data:/app/data \
+    -v ${PWD}/output:/app/output \
     testing \
     python /app/src/notebook/testing_hallucination_detection.py
 
