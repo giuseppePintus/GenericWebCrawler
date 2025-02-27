@@ -2,7 +2,7 @@
 
 # Navigate to your project directory (if needed)
 # cd /path/to/your/project
-
+make build-testing
 # Run the testing container and execute the Python script
 docker-compose run --rm \
     -v ${PWD}/config:/app/config:ro \
