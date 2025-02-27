@@ -322,7 +322,7 @@ def check_hallucinations_with_llm(
         base_model = AutoModelForCausalLM.from_pretrained(base_model_name).to(device)
 
         results = []
-        for idx, prompt_text in df["formatted_prompt"].iteritems():
+        for idx, prompt_text in df["formatted_prompt"].items():
             inputs = base_tokenizer(prompt_text, return_tensors="pt").to(device)
             outputs = base_model.generate(
                 **inputs,
