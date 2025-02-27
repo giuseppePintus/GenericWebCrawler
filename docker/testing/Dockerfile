@@ -13,7 +13,7 @@ COPY docker/testing/requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copia la cartella src (che contiene lo script di test)
-COPY src /app/src
+COPY . /app
 
 # (Opzionale) Se vuoi installare pacchetti aggiuntivi per testare LLM, 
 # embedder, huggingface, etc., aggiungili al requirements.txt

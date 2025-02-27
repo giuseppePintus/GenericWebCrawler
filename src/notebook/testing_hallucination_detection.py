@@ -19,7 +19,7 @@ from sklearn.linear_model import LogisticRegression
 # PARAMETRI DI BASE
 ###############################################################################
 
-RAG_BASE_DIR = "data/human_visioned_rag/rag_files/"
+RAG_BASE_DIR = "app/data/test_rag_files/"
 RAG_FILES = [
     "chunks_2021_512_jina_docling_pdf.json",
     "chunks_2023_512_jina_docling_pdf.json",

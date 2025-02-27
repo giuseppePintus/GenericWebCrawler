@@ -9,3 +9,5 @@ docker-compose run --rm \
     -v ${PWD}/data:/app/data \
     testing \
     python /app/src/notebook/testing_hallucination_detection.py
+
+    
