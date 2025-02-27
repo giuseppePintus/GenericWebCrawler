@@ -2,9 +2,10 @@ version: '3.8'
 
 services:
   testing:
-    build: ./docker/testing
+    build:
+      context: .  # Contesto di build impostato sulla directory principale
+      dockerfile: docker/testing/Dockerfile
     image: testing-service
-    # Se necessario, mappa volumi o setta variabili:
     volumes:
       - ./config:/app/config:ro
       - ./data:/app/data

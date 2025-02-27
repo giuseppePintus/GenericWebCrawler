@@ -7,7 +7,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copia i requisiti
-COPY requirements.txt ./
+COPY docker/testing/requirements.txt ./
 
 # Installa i requisiti
 RUN pip install --no-cache-dir -r requirements.txt
