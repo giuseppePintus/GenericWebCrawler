@@ -633,10 +633,11 @@ if __name__ == "__main__":
     # Rimuoviamo l'embedder se non più necessario
     del embedder
     gc.collect()
-
+    
+    #"meta-llama/Llama-2-7b-chat-hf"
     # 5) Modelli (<= 24GB in FP16)
     model_names = [
-        "meta-llama/Llama-2-7b-chat-hf",
+        "google/gemma-2-9b",
         "mistralai/Mistral-7B-Instruct-v0.3",
         "Qwen/Qwen-7B-Chat",
         "bigscience/bloom-3b",
